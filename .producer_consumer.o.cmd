@@ -989,6 +989,7 @@ deps_/home/sara/Documents/producer_consumer/producer_consumer.o := \
   include/linux/dqblk_qtree.h \
   include/linux/projid.h \
   include/uapi/linux/quota.h \
+  include/linux/kthread.h \
 
 /home/sara/Documents/producer_consumer/producer_consumer.o: $(deps_/home/sara/Documents/producer_consumer/producer_consumer.o)
 

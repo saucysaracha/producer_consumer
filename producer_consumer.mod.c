@@ -34,11 +34,13 @@ MODULE_INFO(retpoline, "Y");
 
 static const struct modversion_info ____versions[]
 __used __section("__versions") = {
-	{ 0x122c3a7e, "_printk" },
 	{ 0x5b8239ca, "__x86_return_thunk" },
+	{ 0xab8d34a6, "kthread_create_on_node" },
+	{ 0x7e77e8c, "wake_up_process" },
 	{ 0x6bc3fbc0, "__unregister_chrdev" },
 	{ 0x1ce836e0, "param_ops_int" },
 	{ 0xbdfb6dbb, "__fentry__" },
+	{ 0x122c3a7e, "_printk" },
 	{ 0xf6817066, "init_task" },
 	{ 0xe092dd08, "module_layout" },
 };
@@ -46,4 +48,4 @@ __used __section("__versions") = {
 MODULE_INFO(depends, "");
 
 
-MODULE_INFO(srcversion, "92DBAC25C55CFD5EEE2E3E7");
+MODULE_INFO(srcversion, "DC0FA2C4E5F8B7B5E96A6CC");
