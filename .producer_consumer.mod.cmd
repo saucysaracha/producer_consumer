@@ -1,0 +1,1 @@
+savedcmd_/home/sara/Documents/producer_consumer/producer_consumer.mod := printf '%s\n'   producer_consumer.o | awk '!x[$$0]++ { print("/home/sara/Documents/producer_consumer/"$$0) }' > /home/sara/Documents/producer_consumer/producer_consumer.mod

@@ -1,0 +1,1 @@
+savedcmd_/home/sara/Documents/producer_consumer/Module.symvers :=  scripts/mod/modpost -m -a     -o /home/sara/Documents/producer_consumer/Module.symvers -T /home/sara/Documents/producer_consumer/modules.order -i Module.symvers -e 

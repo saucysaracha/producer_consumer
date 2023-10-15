@@ -1,0 +1,1 @@
+savedcmd_/home/sara/Documents/producer_consumer/producer_consumer.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/sara/Documents/producer_consumer/producer_consumer.ko /home/sara/Documents/producer_consumer/producer_consumer.o /home/sara/Documents/producer_consumer/producer_consumer.mod.o;  true
